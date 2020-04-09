@@ -205,8 +205,8 @@ class _StartScreenState extends State<StartScreen> {
         CompanyTab(),
       ]),
       bottomNavigationBar: BottomNavigationBar(
-        selectedLabelStyle: GoogleFonts.nunito(),
-        unselectedLabelStyle: GoogleFonts.nunito(),
+        selectedLabelStyle: GoogleFonts.rubik(),
+        unselectedLabelStyle: GoogleFonts.rubik(),
         type: BottomNavigationBarType.fixed,
         onTap: (index) => setState(() => _currentIndex = index),
         currentIndex: _currentIndex,
