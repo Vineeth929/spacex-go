@@ -89,6 +89,9 @@ class _StartScreenState extends State<StartScreen> {
                     'time': FlutterI18n.translate(
                       context,
                       'spacex.notifications.launches.time_minutes',
+                      translationParams: {
+                        'minutes': '30',
+                      },
                     ),
                   },
                 ),
